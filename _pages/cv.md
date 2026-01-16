@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
- Education
+Education
 ======
 * **National University of Singapore (NUS)**, Singapore
   * M.Eng in Computer Engineering (Incoming)
@@ -57,7 +57,7 @@ redirect_from:
 * **Efficiency**: Applied Top-k selection to handle long-context data, maintaining summarization accuracy while avoiding performance degradation.
 * **Sparse Attention**: Utilized VectorDB for sparse attention, reducing time complexity from $O(n^2)$ to $O(n \log n)$.
 
- Publications
+Publications
 ======
 * **[AAAI'26]** **AdaFuse: Accelerating Dynamic Adapter Inference via Token-Level Pre-Gating and Fused Kernel Optimization.**
   * **Qiyang Li**, Rui Kong, Yuchen Li†, Hengyi Cai, Shuaiqiang Wang, Linghe Kong, Guihai Chen, Dawei Yin.
