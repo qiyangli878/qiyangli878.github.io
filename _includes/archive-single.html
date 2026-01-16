@@ -15,7 +15,8 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.collection == 'publications' %}
-      <p>{{ post.citation | default: post.title }}</p>
+      <p style="margin-bottom: 5px;"><b>{{ post.title }}</b> <i>({{ post.venue }})</i></p>
+      <p style="margin-top: 0px;">{{ post.authors }}</p>
     {% else %}
     {% if post.type == "grid" and teaser %}
       <div class="archive__item-teaser">
